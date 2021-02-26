@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url("base.css");
+
+p.btn01, p.btn02, p.btn03, p.btn04, p.btn05 {
+	width: 203px;
+	margin: 0 auto;
+}
+
+p.btn01 {
+	padding-top: 130px;
+	margin-bottom: 1.2em;
+}
+
+p.btn03, p.btn04 {
+	margin-top: 1.2em;
+}
+
+p.btn01 a {
+	background-image: url(../img/btn01.png);
+}
+
+p.btn02 a {
+	background-image: url(../img/btn02.png);
+}
+
+p.btn03 a, p.btn05 a {
+	background-image: url(../img/btn03.png);
+}
+
+p.btn04 a {
+	background-image: url(../img/btn04.png);
+}
+
+p.btn05 {
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+p.btn01 a, p.btn02 a, p.btn03 a, p.btn04 a, p.btn05 a {
+	width: 203px;
+	height: 56px;
+	display: block;
+	border-radius: 3px;
+	background-size: cover;
+}
+
+p.btn01 a:hover, p.btn02 a:hover, p.btn03 a:hover, p.btn04 a:hover, p.btn05 a:hover {
+	background-position: left bottom;
+}
+
+@media screen and (min-width:892px){
+
+}

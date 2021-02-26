@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url("base.css");
+
+h1 {
+	width: 100%;
+	color: #007aac;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 40px 0 5px 23px;
+	margin: 0 auto 30px !important;
+	border-bottom: 2px solid #007aac;
+	background: url(../img/mark.png) no-repeat;
+	background-size: 18px;
+	background-position: 0% 85%; 
+}
+
+section {
+	padding-bottom: 20px;
+}
+
+label {
+	width: 150px;
+}
+
+input {
+	padding: 5px 0 5px 3px;
+}
+
+input.name {
+	width: 150px;
+}
+
+input.email {
+	width: 45%;
+}
+
+div.btn_box {
+	width: 50%;
+}
+
+div.btn_box input.btn {
+	/* ユーザー登録確認レイアウト調整_kamimura */
+	width: 100%;
+	background-color: #f29214;
+}
+
+.password_box {
+	margin-bottom: 0;
+}
+
+.password_mainbox {
+	display: inline-block;;
+}
+
+.password_subbox {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.department select, .division select, .position select {
+	padding: 5px 0;
+}
+
+@media screen and (max-width:1024px){
+	section {
+		padding: 20px;
+	}
+
+	div.name input:first-of-type {
+		margin-bottom: 5px;
+	}
+}
+
+p.complete {
+	width: 40%;
+	padding: 20px 0;
+	margin: 150px 0;
+	display: inline-block;
+	border: 2px solid #ddd;
+}
+
+table.confirm {
+	width: 100%;
+}
+
+table.confirm tr th {
+	width: 47%;
+	text-align: right;
+	padding: 8px 18px 8px 0;
+}
+
+table.confirm tr td {
+	text-align: left;
+	padding: 5px 5px;
+	vertical-align: middle;
+}
+
+table.confirm tr td.name_td {
+	width: 20%;
+}

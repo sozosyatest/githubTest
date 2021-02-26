@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+h1 {
+	width: 200px;
+	margin: 0 auto !important;
+	padding: 80px 0;
+}
+
+#error_box {
+	width: 40%;
+	color: red;
+	margin: 0 auto 50px;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table tr td {
+    word-wrap: break-word; /*IE*/
+    overflow-wrap: break-word;
+}
+
+form {
+	width: 88%;
+	margin: 0 auto;
+}
+
+form div {
+	margin-bottom: 20px;
+}
+
+#password, #password_confirmation, select {
+    width: 150px;
+    padding: 8px 0;
+}
+
+label {
+	width: 90px;
+	padding-right: 5px;
+	display: inline-block;
+	text-align-last: justify;
+	text-justify: inter-ideograph;
+}
+
+input#password, #password_confirmation {
+	font-size: 1em;
+	padding: 6px 0 3px 1px;
+}
+
+.password_subbox {
+	font-size: 0.8em;
+	margin-top: -17px;
+	text-align: right;
+}
+
+div.btn_box {
+	margin: 30px auto 0;
+}
+
+div.btn_box input.btn {
+	width: 20%;
+	color: #fff;
+	padding: 10px 0;
+	background-color: #007aac;
+	border: none;
+	border-radius: 3px;
+}
+
+.btn1 {	
+	background-color: #007aac;
+	border: none;
+	color: #fff;
+}
+
+.btn2 {
+	background-color: #eee !important;
+	border: 1px solid #333 !important;
+	color: #333 !important;
+}
+
+div.btn_box input.btn:hover {
+	opacity: 0.8;
+}
+
+.pagenation {
+	margin: 25px 0;
+	text-align: center;
+}
+
+.pagenation div {
+	display: inline-flex;
+}
+
+.pagenation div ul li:hover, .pagenation button:hover {
+	color: blue;
+}
+
+.pagenation div ul {
+	display: flex;
+}
+
+.pagenation div ul li {
+	padding: 2px 8px 0;
+}
+
+.pagenation div button {
+	border: none;
+	background: none;
+	line-height: 1.3;
+	font-size: 0.95em;
+}
+
+.tablesorter th{
+    position: relative;
+    cursor: pointer;
+}
+
+.tablesorter th::before, .tablesorter th::after{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    right: 7px;
+    width: 0;
+    height: 0;
+    border: 4px dashed;
+    border-color: #333 transparent;
+    pointer-events: none;
+}
+
+.tablesorter th::before{
+    border-bottom-style: solid;
+    border-top: none;
+    top: 30%;
+}
+
+.tablesorter th::after{
+    border-top-style: solid;
+    border-bottom: none;
+    bottom: 30%;
+}
+
+.tablesorter th.tablesorter-headerAsc:after{
+    border: none;
+}
+
+.tablesorter th.tablesorter-headerAsc:before{
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.tablesorter th.tablesorter-headerDesc:before{
+    border: none;
+}
+
+.tablesorter th.tablesorter-headerDesc:after{
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.tablesorter th.sorter-false:before, .tablesorter th.sorter-false:after{
+    border: none;
+}
+
+
+
+@media screen and (max-width:1024px){
+	form {
+		width: 60%;
+	}
+
+	label {
+		margin: 0 auto;
+		text-align-last: justify !important;
+	}
+}
+
+@media screen and (max-width:892px){
+	h1 {
+		width: 160px;
+		padding: 40px 0 60px;
+	}
+
+	/*#password, select {
+    	width: 100%;
+	}*/
+
+	form {
+		text-align: center;
+	}
+
+	form div label {
+		display: block;
+		text-align: left;
+		margin-bottom: 5px;
+		text-align-last: left;
+	}
+
+	div.btn_box input.btn {
+		width: 35%;
+	}
+
+	div.btn_box input.btn:hover {
+		opacity: 1.0;
+	}
+}

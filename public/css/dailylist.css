@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@import url("base.css");
+@import url("usertouroku.css");
+
+.btn01 {
+	width: 203px;
+	margin: 0 auto;
+}
+
+p.btn01 {
+	margin-bottom: 1.2em;
+}
+
+p.btn01 a {
+	background-image: url(../img/btn01.png);
+	border-radius: 3px;
+}
+
+p.btn01 a {
+	width: 203px;
+	height: 56px;
+	display: block;
+	background-size: cover;
+}
+
+p.btn01 a:hover {
+	background-position: left bottom;
+}
+
+body {
+	position: relative;
+}
+
+aside {
+	position: absolute;
+	top: 5.1%;
+	left: 50%;
+	margin: 0 1% 0 18%;
+	z-index: 10;
+}
+
+aside p.notice {
+	color: #fff;
+	padding: 10px 10px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+aside p.notice:nth-of-type(even) {
+	margin: 10px 0;
+}
+
+aside p.notice a:hover {
+	opacity: 0.8;
+}
+
+aside p.notice span {
+	display: block;
+	text-align: right;
+}
+
+table {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+table thead tr th {
+	padding: 8px 0;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #e8ffd1;
+}
+
+table.approval tr th{
+	background-color: #ffe0ef;
+}
+
+table tr th {
+	padding: 15px 5px;
+	vertical-align: middle;
+}
+
+table tr th:first-of-type {
+	width: 30%;
+}
+
+/*
+table tr th:nth-of-type(2) {
+	width: 18%;
+}
+
+table tr th:nth-of-type(3) {
+	width: 18%;
+}
+
+table tr th:nth-of-type(4) {
+	text-align: left;
+}
+*/
+
+table tr th:last-of-type {
+	width: 18%;
+    font-size: 0.8em;
+}
+
+table tr td {
+    vertical-align: middle;
+}
+
+table tr td:nth-of-type(2) {
+    text-align: left;
+}
+
+table.general tr td, table.approval tr td {
+	padding: 5px;
+}
+
+table.general tr th:first-of-type, table.approval tr th:nth-of-type(2) {
+	width: 15%;
+}
+
+table.general tr th:nth-of-type(2), table.approval tr th:nth-of-type(3) {
+	width: 15%;
+}
+
+table.general tr th:nth-of-type(3), table.approval tr th:nth-of-type(4) {
+	width: 15%;
+}
+
+table.general tr th:nth-of-type(4), table.approval tr th:nth-of-type(5) {
+	width: 18%;
+}
+
+table.general tr th:last-of-type, table.approval tr th:last-of-type {
+	width: 10%;
+    font-size: 0.8em;
+}
+
+table.general tr td:first-of-type, table.approval tr td:nth-of-type(2) {
+    text-align: center;
+}
+
+table.general tr td:nth-of-type(2), table.approval tr td:nth-of-type(3) {
+	text-align: center;
+}
+
+table.general tr td:nth-of-type(4), table.approval tr td:nth-of-type(5) {
+    text-align: left;
+}
+
+tbody tr.clickable:hover td {
+	cursor: pointer;
+    background: #f9fffc;
+}
+
+@media screen and (min-width:892px){
+
+}
